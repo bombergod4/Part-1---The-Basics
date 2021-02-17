@@ -38,7 +38,9 @@ namespace Part_1___The_Basics
             favMovie = favMovie.ToUpper();
             Console.WriteLine(favMovie);
             Console.WriteLine(favMovie.Contains("THE"));
-            favMovie = favMovie
+            favMovie = favMovie.Replace("A", "@");
+            favMovie = favMovie.Replace("E", "3");
+            Console.WriteLine(favMovie);
         }
     }
 }
